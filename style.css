@@ -1,0 +1,33 @@
+ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+.page{
+	width: 1290px;
+	border: 1px solid #999;
+}
+header{
+	padding: 20px;
+}
+header > h1{
+	float: left;
+}
+header> nav{
+	float: right;
+}
+section{
+	clear: both;
+	padding-left: 20px;
+	overflow: hidden;
+}
+section > ul{
+}
+section > ul > li{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+section > ul > li:nth-child(2n){
+	margin-right: 0;
+}
