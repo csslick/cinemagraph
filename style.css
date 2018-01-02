@@ -4,8 +4,9 @@ ul{
 }
 
 .page{
-	width: 1290px;
+	width: 1060px;
 	border: 1px solid #999;
+	margin: 20px auto;
 }
 header{
 	padding: 20px;
@@ -13,9 +14,18 @@ header{
 header > h1{
 	float: left;
 }
-header> nav{
+header > nav{
 	float: right;
+	margin-top: 10px;
 }
+nav ul li{
+	display: inline;
+	margin: 0 10px;
+}
+nav ul li:hover{
+	text-decoration: underline;
+}
+
 section{
 	clear: both;
 	padding-left: 20px;
@@ -27,7 +37,4 @@ section > ul > li{
 	float: left;
 	margin-right: 20px;
 	margin-bottom: 20px;
-}
-section > ul > li:nth-child(2n){
-	margin-right: 0;
 }
